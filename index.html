@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    Micro-frontend Wordpress
+  </title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    iframe {
+      display: block;
+      /* iframes are inline by default */
+      background: #000;
+      border: none;
+      /* Reset default border */
+      height: 100vh;
+      /* Viewport-relative units */
+      width: 100vw;
+    }
+  </style>
+</head>
+
+<body>
+    <x-connected></x-connected>
+  <script src="/mfe.js"></script>
+</body>
+
+</html>
