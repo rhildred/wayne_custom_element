@@ -64,7 +64,8 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(root.path, 'dist')
+    path: path.resolve(root.path, 'dist'),
+    publicPath: "/wayne_custom_element/"
   },
   devServer: {
     port: 9876,
